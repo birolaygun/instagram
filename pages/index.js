@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Modal from "../components/Modal";
 
 export default function Home() {
-  const [error, setError] = useState(true);
+  const [error, setError] = useState(false);
 
   return (
     <div className="App bg-gray-50 h-screen overflow-y-scroll scrollbar-hide">
