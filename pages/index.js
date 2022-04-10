@@ -8,8 +8,6 @@ import Modal from "../components/Modal";
 export default function Home() {
   const [error, setError] = useState(false);
 
-  var obj;
-
   return (
     <div className="App bg-gray-50 h-screen overflow-y-scroll scrollbar-hide">
       {error && <ErrorModal />}
