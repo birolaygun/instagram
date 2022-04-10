@@ -7,13 +7,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAp3ZxRMLuJsA0MgXcqk9LTvpq-xK5DwR4",
-  authDomain: "wsreal-41422.firebaseapp.com",
-  projectId: "wsreal-41422",
-  storageBucket: "wsreal-41422.appspot.com",
-  messagingSenderId: "836193148741",
-  appId: "1:836193148741:web:3d60a573ea5e6ecd76e82c",
-};
+  apiKey: "AIzaSyC6uLZa8J1f26IStUtxaL5wZ4-yJ9yeKWQ",
+  authDomain: "instinst1987.firebaseapp.com",
+  projectId: "instinst1987",
+  storageBucket: "instinst1987.appspot.com",
+  messagingSenderId: "14758899437",
+  appId: "1:14758899437:web:4575cb6d714aa9cb0b26e4"};
 
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();

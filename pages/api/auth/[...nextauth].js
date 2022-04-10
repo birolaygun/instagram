@@ -22,6 +22,8 @@ export default NextAuth({
 
       session.user.uid = token.sub;
 
+     
+
       return session;
     },
   },

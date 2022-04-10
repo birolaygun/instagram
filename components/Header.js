@@ -18,7 +18,7 @@ const Header = () => {
   const { data: session } = useSession();
   const router = useRouter();
   const [open, setOpen] = useRecoilState(modalState);
-
+  console.log(session);
   return (
     <div className="header shadow-sm border-b bg-white sticky top-0 z-50 ">
       <div className="flex justify-between max-w-6xl mx-2 lg:mx-auto ">
@@ -69,6 +69,7 @@ const Header = () => {
 
           {session ? (
             <>
+              z
               <div className="relative navBar">
                 <PaperAirplaneIcon className="navBtn rotate-45" />
                 <div className="hidden md:inline-flex absolute -top-1 -right-2 text-xs w-5 h-5  bg-red-500  rounded-full items-center justify-center  text-white animate-pulse ">
