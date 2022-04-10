@@ -3,7 +3,6 @@ import { getProviders, signIn as SingInToProvider } from "next-auth/react";
 import Header from "../../components/Header";
 
 const signIn = ({ providers }) => {
-  console.log(providers);
   return (
     <>
       <Header />
@@ -13,7 +12,7 @@ const signIn = ({ providers }) => {
         </div>
         <p>Bu gerçek İnstagram değildir. Eğitim projesi olarak yapılmıştır. </p>
 
-        {/* <div>
+        <div>
           {Object.values(providers).map((provider) => (
             <div className="mt-40 " key={provider.name}>
               <button
@@ -24,7 +23,7 @@ const signIn = ({ providers }) => {
               </button>
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </>
   );
